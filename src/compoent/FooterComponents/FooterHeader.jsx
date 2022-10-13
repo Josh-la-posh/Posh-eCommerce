@@ -23,10 +23,10 @@ function FooterHeader () {
 
                         <ul className="meetUs">
                             <h3>Connect with Us</h3>
-                            <li><a href="https://www.facebook.com/joshuaym">Facebook</a></li>
-                            <li><a href="https://www.twitter.com/nova_jy">Twitter</a></li>
-                            <li><a href="https://www.instagram.com/josh_la_posh">Instagram</a></li>
-                            <li><a href="https://www.linkrdin.com/in/jfajobi">Linkdeln</a></li>
+                            <li><a target='_blank' href="https://www.facebook.com/joshuaym">Facebook</a></li>
+                            <li><a target='_blank' href="https://www.twitter.com/nova_jy">Twitter</a></li>
+                            <li><a target='_blank' href="https://www.instagram.com/josh_la_posh">Instagram</a></li>
+                            <li><a target='_blank' href="https://www.linkrdin.com/in/jfajobi">Linkdeln</a></li>
                         </ul>
 
                         <div className="empty"></div>
