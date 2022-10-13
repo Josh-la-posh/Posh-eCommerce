@@ -47,7 +47,7 @@ class Product extends Component {
                         <div className="information display">
                             <div className="information-display-content">
                                 <h2>{item.name} {item.model} {item.description} {item.memory && <>({item.memory}GB) - {item.color}</>}</h2>
-                                <p>Brand: <a href="/">{item.brand}</a> | <a href="/">Similar Products from {item.brand}</a></p>
+                                <p>Brand: <a href="/home">{item.brand}</a> | <a href="/home">Similar Products from {item.brand}</a></p>
 
                                 <hr />
                                 

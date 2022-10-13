@@ -12,7 +12,7 @@ class SearchDisplay extends Component {
                     <ul>
                         {search && FilterSearch.map(item => {
                             return (
-                                <li key={item.id}><a href="/">{item.name} {item.model}</a></li>
+                                <li key={item.id}><a href="/home">{item.name} {item.model}</a></li>
                             )
                         })}
                     </ul>

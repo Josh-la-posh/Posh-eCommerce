@@ -41,7 +41,7 @@ class BottomSection extends Component {
                 <div className="signUp-content">
                     <p>See personalized recommendations</p>
                     <button className="">Sign In</button>
-                    <p>New customer? <span><a href="/">Start here.</a></span></p>
+                    <p>New customer? <span><a href="/home">Start here.</a></span></p>
                 </div>
 
                 <hr />

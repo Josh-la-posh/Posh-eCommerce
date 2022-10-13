@@ -8,7 +8,7 @@ class Logo extends Component {
         return (            
             <div>
                 <h1 className="logo">
-                    <a href="/">                        
+                    <a href="/home">                        
                         POSH
                         <span className='icon'><FontAwesomeIcon icon='star' /></span>
                     </a>

@@ -9,14 +9,14 @@ class MyMarket extends Component {
             <section className="carousel row">
                 <div className="left-content col-lg-2 col-md-3">
                     <ul>
-                        <li><a href="/">Health & Beauty</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='mobile' /><a href="/">Phones & Tablets</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='laptop' /><a href="/">Computing</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='car-side' /><a href="/">Electronics</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='shirt' /><a href="/">Fashion</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='gamepad' /><a href="/">Gaming</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='volleyball' /><a href="/">Sporting Goods</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='ellipsis' /><a href="/">Other categories</a></li><br />
+                        <li><a href="/home">Health & Beauty</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='mobile' /><a href="/home">Phones & Tablets</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='laptop' /><a href="/home">Computing</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='car-side' /><a href="/home">Electronics</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='shirt' /><a href="/home">Fashion</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='gamepad' /><a href="/home">Gaming</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='volleyball' /><a href="/home">Sporting Goods</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='ellipsis' /><a href="/home">Other categories</a></li><br />
 
                     </ul>
                 </div>

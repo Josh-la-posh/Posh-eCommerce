@@ -78,7 +78,7 @@ class ShoppingCart extends Component {
                     <div className="empty-cart">
                         <h3>Your Posh cart is empty.</h3>
                         <p>Browse our categories and discover our best deals!</p>
-                        <a href='/'><button>START SHOPPING</button></a>
+                        <a href='/home'><button>START SHOPPING</button></a>
                     </div>
                     
                 </div>

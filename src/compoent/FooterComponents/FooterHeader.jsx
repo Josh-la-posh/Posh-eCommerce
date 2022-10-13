@@ -13,10 +13,10 @@ function FooterHeader () {
                     <div className="footer-content">
                         <ul className="knowUs">
                             <h3>Get to Know Us</h3>
-                            <li><a href="/">About Us</a></li>
-                            <li><a href="/">Careers</a></li>
-                            <li><a href="/">Press Releases</a></li>
-                            <li><a href="/">Our Science</a></li>
+                            <li><a href="/home">About Us</a></li>
+                            <li><a href="/home">Careers</a></li>
+                            <li><a href="/home">Press Releases</a></li>
+                            <li><a href="/home">Our Science</a></li>
                         </ul>
 
                         <div className="empty"></div>
@@ -33,23 +33,23 @@ function FooterHeader () {
 
                         <ul className="makeMoney">
                             <h3>Make Money With Us</h3>
-                            <li><a href="/">Sell on PoshStore</a></li>
-                            <li><a href="/">PoshStore Global Selling</a></li>
-                            <li><a href="/">Become an Affiliate</a></li>
-                            <li><a href="/">Advertise Your Products</a></li>
-                            <li><a href="/">PoshStore Pay on Merchants</a></li>
+                            <li><a href="/home">Sell on PoshStore</a></li>
+                            <li><a href="/home">PoshStore Global Selling</a></li>
+                            <li><a href="/home">Become an Affiliate</a></li>
+                            <li><a href="/home">Advertise Your Products</a></li>
+                            <li><a href="/home">PoshStore Pay on Merchants</a></li>
                         </ul>
 
                         <div className="empty"></div>
                         
                         <ul className="helpYou">
                             <h3>Let Us Help You</h3>
-                            <li><a href="/">COVID-19 and PoshStore</a></li>
-                            <li><a href="/">Your Account</a></li>
-                            <li><a href="/">Returns Centre</a></li>
-                            <li><a href="/">100% Purchase Protection</a></li>
-                            <li><a href="/">PoshStore App Download</a></li>
-                            <li><a href="/">Help</a></li>
+                            <li><a href="/home">COVID-19 and PoshStore</a></li>
+                            <li><a href="/home">Your Account</a></li>
+                            <li><a href="/home">Returns Centre</a></li>
+                            <li><a href="/home">100% Purchase Protection</a></li>
+                            <li><a href="/home">PoshStore App Download</a></li>
+                            <li><a href="/home">Help</a></li>
                         </ul>
                     </div>
                     <hr />
