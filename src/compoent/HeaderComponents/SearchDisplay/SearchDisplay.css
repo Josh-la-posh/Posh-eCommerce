@@ -1,0 +1,36 @@
+.search-display {
+    background-color: #fff;
+    max-height: 21rem;
+    overflow: hidden;
+    width: 64.744%;
+    box-shadow: 0px 1px 2px #ddd;
+    z-index: 100;
+    position: absolute;
+    left: 259px;
+    top: 48px;
+    position: fixed;
+    /* margin-top: -3rem; */
+}
+
+.search-display ul {
+    list-style: none;
+    padding-top: .5rem;
+    width: 100%;
+}
+
+.search-display ul li {
+    margin-bottom: .4rem;
+    width: 100%;
+}
+
+.search-display ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 100%;
+    padding: .2rem;
+}
+
+.search-display ul li a:hover {
+    background-color: #eee;
+}

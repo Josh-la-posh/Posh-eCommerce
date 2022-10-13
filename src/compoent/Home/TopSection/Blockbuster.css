@@ -1,0 +1,43 @@
+.blockbuster-content {
+    display: flex;
+    /* overflow-x: scroll; */
+    overflow-y: hidden;
+}
+
+.blockbuster-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform .2s;
+    margin-right: .5rem;
+    font-size: 16px;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+
+    cursor: pointer;
+}
+
+.blockbuster-item:hover {
+    transform: scale(1.02);
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.blockbuster-item img {
+    width: 4.5rem;
+    height: 6rem;
+    margin-bottom: .3rem;
+
+    position: relative;
+}
+
+.blockbuster-item span {
+    position: absolute;
+    right: 3%;
+    padding: .1rem .2rem;
+    font-size: 10px;
+
+    background-color: rgb(233, 5, 5);
+}

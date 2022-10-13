@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    top: 0;
+    margin-bottom: 3rem;
+    z-index: 1000;
+}
+
+.navbar {
+    background-color: #131921;
+    padding: 0 2rem;
+}
+
+#header-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

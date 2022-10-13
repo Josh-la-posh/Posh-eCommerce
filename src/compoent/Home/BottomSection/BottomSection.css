@@ -1,0 +1,112 @@
+.bottom-section {
+    background-color: #fff;
+    padding: 2rem 0 1.2rem;
+}
+
+.bottom-section h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-display-container {
+    padding: 0 3rem;
+}
+
+.content-display {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.viewed-product {
+    margin: 0 .3rem;
+    width: 10rem;
+    text-decoration: none;
+}
+
+.viewed-product p {
+    color: #000;
+}
+
+.product-img {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.product-img img {
+    width: 6rem;
+    transition: transform .2s;
+}
+
+.viewed-product:hover .product-img img {
+    transform: scale(1.03);
+}
+
+.viewed-product  .desc {
+    color: #007185;
+    font-size: 14px;
+    width: 10rem;
+    margin-bottom: 0;
+
+    cursor: pointer;
+}
+
+.viewed-product .desc:hover {
+    color: yellowgreen;
+}
+
+.viewed-product .deal {
+    background-color: rgb(182, 27, 27);
+    color: #fff;
+    padding: .2rem .3rem;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.viewed-product .amt {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.viewed-product .text {
+    font-size: 11px;
+    margin: 0;
+}
+
+.bottom-section hr {
+    color: #586d88;
+    margin: .6rem 0 0;
+}
+
+.signUp-content {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 1rem 0 .7rem;
+}
+
+.signUp-content p {
+    margin: .3rem;
+}
+
+.signUp-content button {
+    background-color: #ffe093;
+    padding: .2rem 5.5rem;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+.signUp-content p a {
+    margin-left: .1rem;
+    text-decoration: none;
+    color: rgb(17, 109, 17);
+}
+
+.signUp-content p a:hover {
+    color: rgb(107, 19, 19);
+}

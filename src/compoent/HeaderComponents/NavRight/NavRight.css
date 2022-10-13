@@ -1,0 +1,32 @@
+.nav-right {
+    display: flex;
+    height: 100%;
+}
+
+#header-nav .menu {
+    color: #eee;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    height: 100%;
+}
+
+.menu .icon {
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+.menu .icon-left {
+    font-size: 18px;
+    position: relative;
+}
+
+.menu .icon .icon-badge {
+    position: absolute;
+    top: -7px;
+    right: -3px;
+    
+    padding: .1rem;
+    color: #000;
+    background: rgb(236, 175, 20) !important;
+}

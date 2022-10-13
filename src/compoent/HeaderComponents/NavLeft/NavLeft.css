@@ -1,0 +1,10 @@
+#header-nav .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #eee;
+}
+
+#header-nav div .logo span {
+    font-size: 2rem;
+}

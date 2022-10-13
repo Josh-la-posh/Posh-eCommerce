@@ -1,0 +1,54 @@
+section .left-content ul {
+    list-style: none;
+    font-size: 14px;
+    margin-left: -2rem;
+}
+
+section .left-content ul li {
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+section .left-content .left-content-icon {
+    font-size: 16px;
+    margin-right: .6rem;
+    width: 1rem;
+}
+
+section .left-content ul li a {
+    color: #222;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+section .left-content ul li a:hover {
+    transform: scale(1.02);
+}
+
+section .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+section .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .right-content .top-box {
+    background-color: red;
+    height: 48%;
+    text-align: center;
+}
+
+section .right-content .bottom-box {
+    background: #000;
+    color: #fff;
+    height: 48%;
+    text-align: center;
+}
