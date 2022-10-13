@@ -24,7 +24,7 @@ function MainComponent() {
         <div className="App">
             <HeaderLayout />
             <Routes>
-                <Route index path='/' element={<Home />} />
+                <Route index path='/home' element={<Home />} />
                 <Route exact path='/product/:id' element={<ProductId  />}/>
                 <Route exact path='/cart' element={<ShoppingCart />} />
             </Routes>
