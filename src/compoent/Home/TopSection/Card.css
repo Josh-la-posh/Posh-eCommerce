@@ -61,7 +61,6 @@
     }
 
     .yes-card .card-body {
-        /* width: 80%; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -75,5 +74,11 @@
     
     .yes-card .card-body .card-body-image img {
         width: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mid-display {
+        padding: 1rem;
     }
 }

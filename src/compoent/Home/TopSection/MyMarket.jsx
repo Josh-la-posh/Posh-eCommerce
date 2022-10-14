@@ -7,7 +7,7 @@ class MyMarket extends Component {
     render() { 
         return (
             <section className="carousel row">
-                <div className="left-content col-lg-2 col-md-3">
+                <div className="left-content col-3">
                     <ul>
                         <li><a href="/home">Health & Beauty</a></li><br />
                         <li><FontAwesomeIcon className='left-content-icon' icon='mobile' /><a href="/home">Phones & Tablets</a></li><br />
@@ -20,7 +20,7 @@ class MyMarket extends Component {
 
                     </ul>
                 </div>
-                <div className="main-content col-lg-3 col-md-3">
+                <div className="main-content col-9">
 
                     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">

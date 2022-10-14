@@ -126,3 +126,36 @@ hr {
         width: 0;
     }
 }
+
+@media screen and (max-width: 576px) {
+
+    .footer-container {
+        justify-content: center;
+    }
+
+    .footer-content {
+        justify-content: space-between;
+    }
+
+    .footer-top-content {
+        margin-top: 2.6rem;
+        max-width: unset;
+        width: 100%;
+        
+    }
+
+    .footer-content {
+        margin-bottom: -1rem;
+        justify-content: space-between;
+        max-width: unset;
+    }
+    
+    .footer-content h3 {
+        font-size: 14px;
+        margin-bottom: .5rem;
+    }
+    
+    .empty {
+        width: 0;
+    }
+}

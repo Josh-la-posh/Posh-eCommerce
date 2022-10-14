@@ -35,3 +35,10 @@ section {
         margin: 0;
     }    
 }
+
+@media screen and (max-width: 576px) {
+    .top-section .container {
+        margin-top: -3rem;
+        width: 100%;
+    }    
+}

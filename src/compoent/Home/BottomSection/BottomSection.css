@@ -113,7 +113,7 @@
 
 @media screen and (max-width: 576px) {
     .bottom-section {
-        padding: 1.3rem 0 1rem;
+        padding: 1rem 0 .7rem;
     }
     
     .bottom-section h2 {
@@ -128,7 +128,6 @@
     .viewed-product {
         margin: 0 .3rem;
         width: 10rem;
-        text-decoration: none;
     }
     
     .product-img {
@@ -143,6 +142,7 @@
     .viewed-product  .desc {
         font-size: 12px;
         width: 8em;
+        line-height: 1.2;
         margin-bottom: 0;
     }
     
