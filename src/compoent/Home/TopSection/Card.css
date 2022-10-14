@@ -81,4 +81,35 @@
     .mid-display {
         padding: 1rem;
     }
+
+    .no-card h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .no-card p {
+        font-size: 14px;
+    }
+
+    .mid-display-content .no-card button {
+        padding: .3rem 1.2rem;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .yes-card .card .card-title {
+        margin: 0;
+        font-size: 12px;
+        font-weight: 500;
+        padding: .2rem;
+    }
+    
+    .yes-card .card-body .card-body-image {
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    .yes-card .card-body .card-body-image img {
+        width: 2.6rem;
+    }
 }

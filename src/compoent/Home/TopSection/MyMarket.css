@@ -52,3 +52,20 @@ section .right-content .bottom-box {
     height: 48%;
     text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+    section .left-content ul {
+        font-size: 9px;
+        margin-left: -2.7rem;
+    }
+    
+    section .left-content ul li {
+        padding-right: 0rem;
+    }
+    
+    section .left-content .left-content-icon {
+        font-size: 12px;
+        margin-right: .3rem;
+        width: .7rem;
+    }
+}

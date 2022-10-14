@@ -41,7 +41,7 @@ class ShoppingCart extends Component {
                                 return (
                                     <div className="cart-left-content" key={item.id}>
                                         <div className="cart-left-items">
-                                            <div className="item-img"><img src={item.image} alt="Logo" /></div>
+                                            <div className="item-img"><img className='img-fluid' src={item.image} alt="Logo" /></div>
                                             <div className="item-details">
                                                 <div className="name">{item.name} {item.model} - {item.color}</div>
                                                 <h4>#{item.price}</h4>
@@ -66,7 +66,7 @@ class ShoppingCart extends Component {
                                     </div>                        
                                 )
                             })}
-                            <div className="text-right">Subtotal ({totalItem} item): <p className='price'><strong>{subTotal}</strong></p></div>
+                            <div className="text-right">Subtotal ({totalItem} item): <p className='price'><strong>#{subTotal}</strong></p></div>
                         </div>
 
                         <div className="cart-right"></div>

@@ -28,3 +28,28 @@
         font-size: 1.7rem;
     }
 }
+
+@media screen and (max-width: 992px) {
+    #header-nav .logo a {
+        font-size: 1.6rem;
+    }
+    
+    #header-nav div .logo span {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo {
+        margin-right: .4rem;
+    }
+
+    #header-nav .logo a {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    #header-nav div .logo span {
+        font-size: .9rem;
+    }
+}

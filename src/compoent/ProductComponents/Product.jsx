@@ -50,7 +50,7 @@ class Product extends Component {
 
                                 <hr />
                                 
-                                <h1>#{item.price}</h1>
+                                <h3>#{item.price}</h3>
 
                                 {cartQuantity ?
                                 <div className="cart-button">
@@ -85,9 +85,9 @@ class Product extends Component {
 
                                 <div className="product-details">
                                     <div>Pattern name: &nbsp; &nbsp;<h6>{item.name} {item.model}</h6></div>
-                                    {item.color && <div><h6>Colour: &nbsp; &nbsp; &nbsp; &nbsp;</h6>{item.color}</div>}
-                                    {item.brand ? <div><h6>Brand:</h6> &nbsp; &nbsp; &nbsp; &nbsp; {item.brand}</div> : <div><h6>Brand:</h6> {item.name}</div>}
-                                    {item.model && <div><h6>Model &nbsp; &nbsp; &nbsp; &nbsp;</h6>{item.name} {item.model}</div>}
+                                    {item.color && <div><h6>Colour:</h6>{item.color}</div>}
+                                    {item.brand ? <div><h6>Brand:</h6> {item.brand}</div> : <div><h6>Brand:</h6> {item.name}</div>}
+                                    {item.model && <div><h6>Model:</h6>{item.name} {item.model}</div>}
                                 </div>
 
                             </div>

@@ -128,9 +128,19 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
+    .footer {
+        max-width: 576px;
+        width: 100%;
+    }
+
+    .backToTop {
+        padding: .3rem;
+        font-size: 10px;
+    }
 
     .footer-container {
-        justify-content: center;
+        justify-content: flex-start;
+        width: 100%;
     }
 
     .footer-content {
@@ -138,24 +148,37 @@ hr {
     }
 
     .footer-top-content {
-        margin-top: 2.6rem;
-        max-width: unset;
-        width: 100%;
-        
-    }
-
-    .footer-content {
-        margin-bottom: -1rem;
-        justify-content: space-between;
-        max-width: unset;
+        margin: .8rem -1rem 0 -1rem;
     }
     
     .footer-content h3 {
-        font-size: 14px;
-        margin-bottom: .5rem;
+        font-size: 8px;
+        margin-bottom: -.4rem;
+    }
+
+    .footer-content ul li {
+        margin-bottom: -.7rem;
+    }
+
+    .footer-content ul li a {
+        font-size: 6px;
     }
     
     .empty {
         width: 0;
     }
+
+    hr {
+        margin: 2.2rem -1rem 1.3rem;
+    }
+    
+    .footer-footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .top h1 {
+        font-size: 1.4rem;
+    }
+    
 }

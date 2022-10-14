@@ -36,12 +36,13 @@
 
 @media screen and (max-width: 768px) {
     #nav {
-        min-width: 768px;
+        max-width: 768px;
     }
 }
 
 @media screen and (max-width: 576px) {
     #nav {
-        min-width: 576px;
+        max-width: 576px;
+        min-width: 300px;
     }
 }

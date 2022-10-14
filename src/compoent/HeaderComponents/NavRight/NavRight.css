@@ -80,3 +80,26 @@
         padding: .15rem;
     } 
 }
+
+@media screen and (max-width: 576px) {
+    .nav-right {
+        margin-left: .4rem;
+    }
+
+    #header-nav .menu {
+        font-size: 10px;
+    }
+    
+    .menu .icon {
+        font-size: 8px;
+        margin: 0 1px;
+    }
+    
+    .menu .icon-left {
+        font-size: 10px;
+    }
+    
+    .menu .icon .icon-badge {
+        padding: .15rem;
+    } 
+}
