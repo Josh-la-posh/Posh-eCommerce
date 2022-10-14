@@ -22,7 +22,7 @@ class BottomSection extends Component {
                                     (product.product !== 'mobile') &&
                                     <Link to={`/product/${product.id}`} className="viewed-product" key={product.id}>
                                         <div className='product-img img-fluid'><img src={product.image} alt='' /></div>
-                                        <p className='desc'>{product.name} {product.model} {product.description}</p>
+                                        <p className='desc'>{product.name} {product.model}</p>
                                         {product.category === 'Blockbuster' && <small className='deal'>Deal of the day</small>}
                                         <p className='amt'>#{product.price}</p>
                                         <p className="text">FREE Delivery over #4,999</p>

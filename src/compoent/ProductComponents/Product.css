@@ -101,11 +101,11 @@
 
 @media screen and (max-width: 576px) {
     .product-content {
-        padding: 1.3rem 0;
+        padding: 2rem 0;
     }
 
     .img-display-content img {
-        width: 80%;
+        width: 60%;
     }
     
     .img-display {
@@ -118,11 +118,15 @@
     }
     
     .information-display {
-        flex: 1 0 60%;
+        flex: 1;        
+    }
+    
+    .information-display-content {
+        width: 90%;
     }
 
     .information-display-content h2 {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 0;
     }
     
@@ -143,22 +147,36 @@
         width: 1.5rem;
         height: 1.5rem;
         font-size: 18px;
-        margin: .6rem .4rem;
+        margin: 1rem 1rem 1rem 0;
+    }
+
+    .information-display-content .cart-button .quan {
+        margin-right: 1rem;
+        font-size: 14px;
     }
     
     .information-display-content button {
         width: 95%;
         font-size: 12px;
         padding: .5rem 0;
-        margin: .8rem 0;
+        margin: 1rem 0;
         box-shadow: 10px 8px 18px #ddd;
     }
-    
-    .product-details h6 {
+
+    .delivery .pay div {
         font-size: 12px;
     }
 
-    .product-details div {
+    .delivery .pay p {
+        font-size: 6px;        
+    }
+    
+    .product-details h6 {
         font-size: 10px;
+        font-weight: 700;
+    }
+
+    .product-details div {
+        font-size: 8px;
     }
 }

@@ -56,9 +56,9 @@ class Product extends Component {
                                 {cartQuantity ?
                                 <div className="cart-button">
                                     <button onClick={()=>{this.props.onDecrease(item)}} >-</button>
-                                    <span>{cartQuantity.quantity}</span>
+                                    <span className='quan'>{cartQuantity.quantity}</span>
                                     <button onClick={()=>{this.props.addToCart(item)}} >+</button>
-                                    <span>({cartQuantity.quantity} item(s) added)</span>
+                                    <span className='quan'>({cartQuantity.quantity} item(s) added)</span>
                                 </div>
                                 :
                                 <button onClick={()=>{this.props.addToCart(item)}} className='addToCart'><FontAwesomeIcon className='icon' icon='cart-plus' />ADD TO CART</button>}
