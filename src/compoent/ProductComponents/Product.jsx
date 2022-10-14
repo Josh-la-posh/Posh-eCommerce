@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Product.css';
 import { connect } from 'react-redux';
 import { reduceCart, addToCart, fetchProduct } from '../../Redux/ActionCreator';
+import BottomSection from '../Home/BottomSection/BottomSection';
 
 const mapStateToProps = (state) => ({
     product: state.product,
@@ -94,6 +95,7 @@ class Product extends Component {
                         </div>
                     </div>
                 </div>
+                <BottomSection />
             </div>
         );
     }

@@ -34,9 +34,9 @@ class BottomSection extends Component {
                     </div>
 
 
+                    <hr />
                 </section>
 
-                <hr />
 
                 <div className="signUp-content">
                     <p>See personalized recommendations</p>

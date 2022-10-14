@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { connect } from 'react-redux';
 import { addToCart, removeFromCart, reduceCart } from '../../Redux/ActionCreator';
 import './ShoppingCart.css';
+import BottomSection from '../Home/BottomSection/BottomSection';
 
 const mapStateToProps = (state) => ({
     cart: state.cart.cart,
@@ -67,10 +68,12 @@ class ShoppingCart extends Component {
                                 )
                             })}
                             <div className="text-right">Subtotal ({totalItem} item): <p className='price'><strong>#{subTotal}</strong></p></div>
+                            <div className="free-div"></div>
                         </div>
 
                         <div className="cart-right"></div>
                     </div>
+                    <BottomSection />
                 </div>
             )
         } else {
@@ -81,6 +84,7 @@ class ShoppingCart extends Component {
                         <p>Browse our categories and discover our best deals!</p>
                         <a href='/home'><button>START SHOPPING</button></a>
                     </div>
+                    <BottomSection />
                     
                 </div>
             )
