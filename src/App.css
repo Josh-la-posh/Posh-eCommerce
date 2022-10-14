@@ -13,6 +13,11 @@
   .App {
     min-width: 950px;
     max-width: 992px;
-    /* overflow: visible; */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .App {
+    max-width: 576px;
   }
 }

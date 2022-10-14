@@ -90,6 +90,21 @@
 
 @media screen and (max-width: 992px) {
     .product {
-        margin-top: -1.8rem;
+        margin-top: -3rem;
+    }    
+
+    .product .container {
+        max-width: 950px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .product {
+    }
+
+    .product .container {
+        /* max-width: 576px;
+        width: 100%; */
     }    
 }
