@@ -100,11 +100,11 @@
 }
 
 @media screen and (max-width: 576px) {
-    .product {
+    .product-content {
+        padding: 2.5rem 0;
     }
 
-    .product .container {
-        /* max-width: 576px;
-        width: 100%; */
-    }    
+    .img-display-content img {
+        width: 60%;
+    }  
 }
