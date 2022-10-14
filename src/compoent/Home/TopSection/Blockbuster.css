@@ -1,3 +1,8 @@
+.blockbuster-loading {
+    height: 7rem;
+    padding-top: 4rem;
+}
+
 .blockbuster-content {
     display: flex;
     overflow-y: hidden;

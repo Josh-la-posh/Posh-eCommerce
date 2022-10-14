@@ -23,8 +23,12 @@ class Blockbuster extends Component {
         const {product} = this.props
         if (product.isLoading) {
             return (
-                <section className="blockbuster">
-                    <div><Loading /></div>
+                <section className="blockbuster-loading">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className=""><Loading /></div>
+                        </div>
+                    </div>
                 </section>
             )
         } else if (product.errMess) {
