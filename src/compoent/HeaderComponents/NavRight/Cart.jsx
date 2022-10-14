@@ -9,6 +9,7 @@ export const Cart = () => {
             <span className='icon icon-left'><FontAwesomeIcon icon='cart-shopping' />
                 <span className='badge bg-secondary icon-badge'>{totalItem > 0 && totalItem}</span>
             </span>
+            <p></p>
             Cart
         </a>
     )

@@ -23,3 +23,19 @@
     left: 0;
     right: 0;
 }
+
+@media screen and (max-width: 991px) {
+    #nav {
+        width: 100%;
+        min-width: 950px;
+        position: sticky;
+        top: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        padding: 0;
+    }
+}

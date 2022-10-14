@@ -1,3 +1,9 @@
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home-container {
     /* background: #000; */
     padding-top: 1rem;
@@ -9,4 +15,23 @@ section {
     margin-bottom: 2rem;
     background-color: #fff;
     padding: 1.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .top-section .container {
+        margin-top: -3rem;
+        width: 100%;
+        max-width: 950px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .top-section {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+    }    
 }

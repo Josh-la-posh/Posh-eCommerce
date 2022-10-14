@@ -7,7 +7,7 @@ import NavSearch from './NavSearch/NavSearch';
 function Nav({ onSearch }) {
     return (
         <Navbar expand='md' light id='nav'>
-                <div id="header-nav" className=''>
+                <div id="header-nav">
                     <Logo />
                     <NavSearch onSearch={onSearch} />
                     <NavRight />

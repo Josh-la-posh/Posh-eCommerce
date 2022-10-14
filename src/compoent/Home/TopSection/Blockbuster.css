@@ -1,6 +1,5 @@
 .blockbuster-content {
     display: flex;
-    /* overflow-x: scroll; */
     overflow-y: hidden;
 }
 
@@ -40,4 +39,17 @@
     font-size: 10px;
 
     background-color: rgb(233, 5, 5);
+}
+
+@media screen and (max-width:576px) {
+    .blockbuster-item {
+        margin-right: 0rem;
+        font-size: 12px;
+        padding: .6rem;
+    }
+    .blockbuster-item img {
+        width: 3.7rem;
+        height: 4.2rem;
+        margin-bottom: .2rem;
+    }
 }

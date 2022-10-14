@@ -59,7 +59,10 @@ export const addToCart = (product) => async dispatch => {
 
     dispatch({
         type: ActionTypes.ADDTOCART,
-        payload: cart
+        payload: {
+            cart,
+            product
+        }
     })    
 };
 
@@ -91,7 +94,10 @@ export const reduceCart = (product) => async dispatch => {
 
     dispatch({
         type: ActionTypes.REDUCECART,
-        payload: cart
+        payload: {
+            cart,
+            product
+        }
     })    
 }
 

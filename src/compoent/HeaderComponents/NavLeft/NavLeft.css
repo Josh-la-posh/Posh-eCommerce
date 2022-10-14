@@ -1,3 +1,13 @@
+#nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
 #header-nav .logo a {
     display: flex;
     align-items: center;
@@ -7,4 +17,14 @@
 
 #header-nav div .logo span {
     font-size: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+    #header-nav .logo a {
+        font-size: 2rem;
+    }
+    
+    #header-nav div .logo span {
+        font-size: 1.7rem;
+    }
 }

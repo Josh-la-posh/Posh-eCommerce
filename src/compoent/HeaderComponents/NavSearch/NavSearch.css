@@ -56,3 +56,24 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .search-content ::placeholder {
+        font-size: 14px;
+    }
+
+    .search-content input {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .search-content ::placeholder {
+        font-size: 12px;
+    }
+
+    .search-content input {
+        font-size: 12px;
+    }
+}

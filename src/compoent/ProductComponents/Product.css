@@ -87,3 +87,9 @@
 .product-details p {
     font-size: 14px;
 }
+
+@media screen and (max-width: 992px) {
+    .product {
+        margin-top: -1.8rem;
+    }    
+}

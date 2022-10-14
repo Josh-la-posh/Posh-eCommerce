@@ -6,10 +6,8 @@ import './HomeLayout.css';
 function Home () {
     return(
         <div className="home-container">
-
             <TopSection />
             <BottomSection />
-
         </div>
     )
 }

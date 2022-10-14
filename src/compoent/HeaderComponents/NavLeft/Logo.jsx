@@ -6,7 +6,7 @@ class Logo extends Component {
     state = {  } 
     render() { 
         return (            
-            <div>
+            <div id="nav-left">
                 <h1 className="logo">
                     <a href="/home">                        
                         POSH

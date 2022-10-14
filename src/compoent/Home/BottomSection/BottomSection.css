@@ -110,3 +110,53 @@
 .signUp-content p a:hover {
     color: rgb(107, 19, 19);
 }
+
+@media screen and (max-width: 576px) {
+    .bottom-section {
+        padding: 1.3rem 0 1rem;
+    }
+    
+    .bottom-section h2 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .content-display-container {
+        padding: 0;
+    }
+    
+    .viewed-product {
+        margin: 0 .3rem;
+        width: 10rem;
+        text-decoration: none;
+    }
+    
+    .product-img {
+        height: 8rem;
+        margin-bottom: .5rem;
+    }
+    
+    .product-img img {
+        width: 4rem;
+    }
+    
+    .viewed-product  .desc {
+        font-size: 12px;
+        width: 8em;
+        margin-bottom: 0;
+    }
+    
+    .viewed-product .deal {
+        padding: .2rem .3rem;
+        font-size: 9.2px;
+    }
+    
+    .viewed-product .text {
+        font-size: 9px;
+    }
+    
+    .bottom-section hr {
+        margin: .3rem 0 0;
+    }
+    
+}

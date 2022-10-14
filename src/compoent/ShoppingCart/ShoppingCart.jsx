@@ -6,7 +6,8 @@ import './ShoppingCart.css';
 
 const mapStateToProps = (state) => ({
     cart: state.cart.cart,
-    totalItem: state.cart.totalQuantity
+    totalItem: state.cart.totalQuantity,
+    subTotal: state.cart.subTotal
 });
 
 const mapDispatchToProps = (dispatch) => ({
@@ -24,7 +25,7 @@ class ShoppingCart extends Component {
     }
 
     render() {
-        const {cart, totalItem, addToCart, removeFromCart, reduceCart} = this.props;
+        const {cart, totalItem, addToCart, removeFromCart, reduceCart, subTotal} = this.props;
 
         if (cart.length) {
             return(
@@ -65,7 +66,7 @@ class ShoppingCart extends Component {
                                     </div>                        
                                 )
                             })}
-                            <div className="text-right">Subtotal ({totalItem} item): <p className='price'><strong>Price</strong></p></div>
+                            <div className="text-right">Subtotal ({totalItem} item): <p className='price'><strong>{subTotal}</strong></p></div>
                         </div>
 
                         <div className="cart-right"></div>
