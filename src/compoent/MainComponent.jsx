@@ -8,6 +8,7 @@ import Product from "./ProductComponents/Product";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import ShoppingCart from "./ShoppingCart/ShoppingCart";
+import ShoppingList from "./ShoppingList/ShoppingList";
 
 function MainComponent() {
     const items = useSelector(state => state.reducer.items);
@@ -28,6 +29,7 @@ function MainComponent() {
                 <Route path='/home' element={<Home />} />
                 <Route exact path='/product/:id' element={<ProductId  />}/>
                 <Route exact path='/cart' element={<ShoppingCart />} />
+                <Route path='/shopping-list' element={<ShoppingList />} />
             </Routes>
             <FooterHeader />
         </div>

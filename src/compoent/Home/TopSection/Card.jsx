@@ -8,9 +8,9 @@ class Card extends Component {
             <section className="mid-display">
                 <div className="mid-display-content row">
                     <div className="no-card col-lg-5 col-md-12">
-                        <h3>Super September sourcing guide</h3>
-                        <p>How to enjoy reduced-price products, fixed delivery times, and flexible payments this month</p>
-                        <button>Learn more</button>
+                        <h3>Create A Shopping List</h3>
+                        <p>Make a list of items you love to purchase</p>
+                        <button>Create List</button>
                     </div>
                     <div className="yes-card col-lg-7 col-md-12">
 

@@ -11,6 +11,19 @@
     padding: .4rem 3rem;
     border: none;
     border-radius: 14px;
+    animation: noCardButtonBounce 1s linear infinite;
+    transition: animation .2s;
+}
+
+@keyframes noCardButtonBounce {
+    0% {
+        opacity: .3;
+        color: blue;
+    }
+    50% {
+        opacity: .8;
+        color: green;
+    }
 }
 
 .mid-display-content .yes-card {

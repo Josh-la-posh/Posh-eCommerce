@@ -1,0 +1,46 @@
+.shoppingList {
+    padding: 4rem;
+}
+
+.container .row hr {
+    color: #000;
+    margin: 1rem -6rem 3rem;
+}
+
+.list-body h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    margin-bottom: 2rem;
+    max-width: 500px;
+    width: 70%;
+}
+
+.list-body [type=text]:focus {
+    outline: none;
+    border: none;
+}
+
+.list-body .input-group-text {
+    background-color: sandybrown;
+    cursor: pointer;
+}
+
+.list-body .list-content .left-content h5 {
+    margin: 1rem;
+}
+
+.list-content .empty-list {
+    padding-top: 3rem;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+
+}

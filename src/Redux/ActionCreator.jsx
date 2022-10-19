@@ -11,13 +11,15 @@ export const checkProduct = (item) => ({
     payload: item
 });
 
+// FETCH ITEMS
+
 export const fetchProduct = () => (dispatch) => {
     dispatch(productLoading(true));
 
     setTimeout(() => {
         dispatch(addProduct(PRODUCTS))
     }, 2000);
-}
+};
 
 export const productLoading = () => ({
     type: ActionTypes.PRODUCTLOADING
@@ -27,6 +29,8 @@ export const productFailed = (errMess) => ({
     type: ActionTypes.PRODUCTFAILED,
     payload: errMess
 });
+
+//ADD ITEMS TO CART
 
 export const addProduct = (product) => ({
     type: ActionTypes.ADDPRODUCT,
@@ -40,12 +44,10 @@ export const addToCart = (product) => async dispatch => {
                 : [];
 
     cart.forEach(cartItem => {
-
         if (cartItem.id === product.id) {
             cartItem.quantity = cartItem.quantity + 1;
             localStorage.setItem('cart', JSON.stringify(cart));
-        }
-        
+        }        
     });
 
     const existingItem = cart.filter(cartItem => cartItem.id === product.id);
@@ -65,6 +67,8 @@ export const addToCart = (product) => async dispatch => {
         }
     })    
 };
+
+//REDUCE ITEMS
 
 export const reduceCart = (product) => async dispatch => {
 
@@ -90,7 +94,7 @@ export const reduceCart = (product) => async dispatch => {
     if (cart[existingItem].quantity === 0 ) {
         cart.splice(existingItem, 1)
         localStorage.setItem('cart', JSON.stringify(cart));
-    } 
+    }
 
     dispatch({
         type: ActionTypes.REDUCECART,
@@ -99,7 +103,9 @@ export const reduceCart = (product) => async dispatch => {
             product
         }
     })    
-}
+};
+
+// REMOVE ITEMS FROM CART
 
 export const removeFromCart = (product) => async dispatch => {
 
@@ -121,4 +127,26 @@ export const removeFromCart = (product) => async dispatch => {
             cart
         }
     })
-}
+};
+
+//SHOPPING LIST
+
+export const listItem = (text) => ({
+    type: ActionTypes.LISTITEM,
+    payload: text
+})
+
+export const addToShoppingList = (text) => async dispatch => {
+    const shoppingList = localStorage.getItem('List')
+                        ? JSON.parse(localStorage.getItem('List'))
+                        : [];
+
+
+    dispatch({
+        type: ActionTypes.ADDTOSHOPPINGLIST,
+        payload: {
+            shoppingList,
+            text,
+        }
+    })
+};

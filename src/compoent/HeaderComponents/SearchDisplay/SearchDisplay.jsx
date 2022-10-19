@@ -8,14 +8,18 @@ class SearchDisplay extends Component {
         return (
             <div>
                 {search &&
-                <div className="search-display">
-                    <ul>
-                        {search && FilterSearch.map(item => {
-                            return (
-                                <li key={item.id}><a href="/home">{item.name} {item.model}</a></li>
-                            )
-                        })}
-                    </ul>
+                <div>
+                    <div className="empty-search nav-search"></div>
+                    <div className="search-display">
+                        <ul className='nav-search'>
+                            {search && FilterSearch.map(item => {
+                                return (
+                                    <li key={item.id}><a href="/home">{item.name} {item.model}</a></li>
+                                )
+                            })}
+                        </ul>
+                    </div>
+                    <div className="empty-search"></div>
                 </div>}
             </div>
         );
