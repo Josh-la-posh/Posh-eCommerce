@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addToShoppingList, listItem } from '../../Redux/ActionCreator';
+import { addToShoppingList, listItem, removeFromShoppingList } from '../../Redux/ActionCreator';
 import './ShoppingList.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const mapStateToProps = (state) => ({
     inputList: state.list.inputList,
@@ -9,8 +10,9 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-    addItem: () => {dispatch(addToShoppingList())},
-    listItem: (e) => {dispatch(listItem(e.target.value))}
+    listItem: (e) => {dispatch(listItem(e.target.value))},
+    addItem: (e) => {dispatch(addToShoppingList(e.preventDefault()))},
+    removeItem: (item) => {dispatch(removeFromShoppingList(item))}
 })
 
 
@@ -19,10 +21,11 @@ class ShoppingList extends Component {
 
     componentDidMouunt() {
         addToShoppingList();
+        removeFromShoppingList();
     }
 
     render() {
-        const {inputList, addItem, list, listItem} = this.props;
+        const {inputList, addItem, list, listItem, removeItem} = this.props;
 
         return(
             <div className='shoppingList'>
@@ -36,35 +39,38 @@ class ShoppingList extends Component {
                     <div className="list-body">
                         <h3>Create a shopping list</h3>
                         <div className="input">
-                            <div className='input-group'>
+                            <form className='input-group'>
                                 {/* INPUT FIELD */}
                                 <input type="text" className='form-control list-form'
                                                     value={inputList}
                                                     onChange={listItem}
                                                     />
                                 <button type='submit' className='input-group-text' onClick={addItem} >ADD ITEM</button>
-                            </div>
+                            </form>
                         </div>
                         <div className="list-content">
                             <div className="row">
                                 <div className="left-content">
 
                                     {list.length ?
-
-
-                                    <div className="list-item">
-                                        <h5>Your list items</h5>
-                                        <ol>
+                                    
+                                    <div className="list">
+                                        <h4>Your list items</h4>
+                                        <ul>
                                         {list.map(listItem => {
                                             return (
                                                 <div key={listItem.id}>
-                                                    <li>{listItem.item}</li>
+                                                    <li>
+                                                        <div className='list-item'>
+                                                            <p>{listItem.item}</p>
+                                                            <span onClick={()=>removeItem(listItem)}><FontAwesomeIcon icon='trash' className='remove-list' /></span>
+                                                        </div>
+                                                    </li>
                                                 </div>
                                                     )
                                                 })}
-                                        </ol>
+                                        </ul>
                                     </div>
-
 
                                     : <div className="empty-list">
                                         <h3>Your shopping list is empty</h3>

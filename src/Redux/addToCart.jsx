@@ -60,10 +60,8 @@ const reduceCart = (state, action) => {
     const totalQuantity = state.totalQuantity && state.totalQuantity - 1;
     localStorage.setItem('Total Quantity', JSON.parse(totalQuantity));
     const selectedItem = cart.filter(cartItem => cartItem.id === action.payload.product.id)[0];
-    console.log(selectedItem)
      let subTotal= state.subTotal - action.payload.product.price;
      localStorage.setItem('Total Price', JSON.parse(subTotal));
-     console.log(subTotal)
    return {
        ...state,
        totalQuantity,
@@ -81,7 +79,6 @@ const removeFromCart = (state, action) => {
     const selectedItem = cart.filter(cartItem => cartItem.id === action.payload.product.id)[0];
      let subTotal= state.subTotal - (action.payload.product.price * action.payload.product.quantity);
      localStorage.setItem('Total Price', JSON.parse(subTotal));
-     console.log(selectedItem)
     
    return {
        ...state,

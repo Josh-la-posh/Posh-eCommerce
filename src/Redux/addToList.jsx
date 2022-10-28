@@ -15,9 +15,9 @@ export const List = (state=initialState, action) => {
                 inputList: action.payload
             }
         case ActionTypes.ADDTOSHOPPINGLIST:
-            const inputList = state.inputList
-            const shoppingList = [...action.payload.shoppingList];
-            const existingItem = shoppingList.filter(listItem => listItem.item.toLowerCase() === inputList.toLowerCase());
+            let inputList = state.inputList
+            let shoppingList = [...action.payload];
+            let existingItem = shoppingList.filter(listItem => listItem.item.toLowerCase() === inputList.toLowerCase());
             if (!inputList) {
                 alert('Please add an item to your Shopping List')
             } else if (inputList.length < 3) {
@@ -29,12 +29,37 @@ export const List = (state=initialState, action) => {
                 const newItem = {id: shoppingList.length + 1, item:inputList}
                 shoppingList.push(newItem)
                 localStorage.setItem('List', JSON.stringify(shoppingList))
+                state.inputList= ''
             }
             
             return {
                 ...state,
                 shoppingList
             }
+        case ActionTypes.REMOVEFROMSHOPPINGLIST:
+            const shoppingItem = [...action.payload.shoppingList]
+            const index = shoppingItem.findIndex(listItem => listItem.id !== action.payload.item.id)
+            shoppingItem.splice(index, 1)
+            localStorage.setItem('List', JSON.stringify(shoppingItem))
+
+            return {
+            ...state,
+            shoppingItem
+            }
+            // console.log(shoppingItem)
+            
+            // return index
+            // if (index) {
+
+            //     console.log(index)
+            // }
+            // window.confirm('Are you sure you want to remove this Item from the Shopping List?') && index
+
+            // return {
+            //     ...state,
+            //     shoppingItem,
+                
+            // }
         default:
             return state;
     }

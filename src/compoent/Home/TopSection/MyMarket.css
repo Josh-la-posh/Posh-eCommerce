@@ -1,3 +1,13 @@
+.my-market {
+    height: 23rem;
+    /* overflow: hidden; */
+    padding: 0;
+}
+
+.left-content {
+    padding: 2rem;
+}
+
 section .left-content ul {
     list-style: none;
     font-size: 14px;
@@ -5,9 +15,9 @@ section .left-content ul {
 }
 
 section .left-content ul li {
-    padding-right: 2rem;
     display: flex;
     align-items: center;
+    margin-bottom: 1.7rem;
 }
 
 section .left-content .left-content-icon {
@@ -28,10 +38,30 @@ section .left-content ul li a:hover {
 
 section .main-content {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000;
+    background: #ddd;
+    width: 100%;
+    height: 23rem;
+}
+
+.carousel .slide img {
+    object-fit: cover !important;
+    height: 23rem;
+}
+
+.control-dots .dot {
+    background: #000 !important;
+}
+
+.carousel .control-prev.control-arrow::before {
+    border-right: 10px solid #000 !important;
+}
+
+.carousel .control-next.control-arrow::before {
+    border-left: 10px solid #000 !important;
+}
+
+.carousel .thumb {
+    display: none !important;
 }
 
 section .right-content {

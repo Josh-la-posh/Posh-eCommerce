@@ -14,8 +14,7 @@
     align-items: center;
     text-align: center;
     transition: transform .2s;
-    margin-right: .5rem;
-    font-size: 16px;
+    margin-right: 1rem;
     padding: 1rem;
     text-decoration: none;
     color: #000;
@@ -27,14 +26,23 @@
 .blockbuster-item:hover {
     transform: scale(1.02);
     color: rgba(0, 0, 0, 0.815);
+    font-weight: 500;
+}
+
+.blockbuster-item .img-container {
+    width: 8rem;
+    height: 10rem;
 }
 
 .blockbuster-item img {
-    width: 4.5rem;
-    height: 6rem;
-    margin-bottom: .3rem;
+    width: 7rem;
+    height: 9rem;
 
     position: relative;
+}
+
+.blockbuster-item p {
+    font-size: 14px;
 }
 
 .blockbuster-item span {

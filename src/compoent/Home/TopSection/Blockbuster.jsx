@@ -42,32 +42,15 @@ class Blockbuster extends Component {
                         <h4>BlockBusters</h4>
                         <div className="blockbuster-content">                    
                             {product.product.map(item => {
-                                if (item.category === 'Blockbuster') {
+                                if (item.sale_type === 'Blockbuster') {
                                     return (
                                         <div key={item.id}>
                                             <Link to={`/product/${item.id}`} className="blockbuster-item">
-                                                <img src={item.image} alt="Logo"/>
-                                                <p>{item.name}</p>
-                                            </Link>
-                                        </div>
-                                    )
-                                }
-                            })}
-                        </div>
-                    </section>
-
-                    <section className='blockbuster'>
-                        <h4>Flash Sales</h4>
-                        <div className="blockbuster-content">
-    
-                            {product.product.map((item) => {
-                                if (item.category === 'Flash Sales') {
-                                    return (
-                                        <div key={item.id}>
-                                            <Link to={`/product/${item.id}`} className="blockbuster-item">
-                                                <img src={item.image} alt="Logo"/>
-                                                <p>{item.name}</p>
-                                                <span className="off">{Math.floor(Math.random() * 10 + 2)}% OFF</span>
+                                                <div className="img-container">
+                                                    {console.log(item)}
+                                                    <img src={item.image} alt="Logo"/>
+                                                </div>
+                                                <p>{item.name} {item.model}</p>
                                             </Link>
                                         </div>
                                     )

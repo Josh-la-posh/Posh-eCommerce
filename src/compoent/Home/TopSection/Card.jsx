@@ -9,8 +9,8 @@ class Card extends Component {
                 <div className="mid-display-content row">
                     <div className="no-card col-lg-5 col-md-12">
                         <h3>Create A Shopping List</h3>
-                        <p>Make a list of items you love to purchase</p>
-                        <button>Create List</button>
+                        <p>Make a list of items you will love to purchase and check them later</p>
+                        <a href='shopping-list'><button>Create List</button></a>
                     </div>
                     <div className="yes-card col-lg-7 col-md-12">
 

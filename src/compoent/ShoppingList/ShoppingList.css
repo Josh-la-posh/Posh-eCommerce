@@ -33,8 +33,34 @@
     cursor: pointer;
 }
 
-.list-body .list-content .left-content h5 {
+.list-body .list-content .left-content h4 {
     margin: 1rem;
+}
+
+.list-content .list li {
+    max-width: 700px;
+    padding-top: 1rem;
+    background-color: #fff;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.list-content .list li .list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-content .list li .list-item p {
+    font-size: 20px;
+}
+
+.list-content .list li .list-item .remove-list {
+    display: none;
+}
+
+.list-content .list li:hover .remove-list {
+    display: block;
 }
 
 .list-content .empty-list {

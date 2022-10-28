@@ -136,7 +136,7 @@ export const listItem = (text) => ({
     payload: text
 })
 
-export const addToShoppingList = (text) => async dispatch => {
+export const addToShoppingList = () => async dispatch => {
     const shoppingList = localStorage.getItem('List')
                         ? JSON.parse(localStorage.getItem('List'))
                         : [];
@@ -144,9 +144,20 @@ export const addToShoppingList = (text) => async dispatch => {
 
     dispatch({
         type: ActionTypes.ADDTOSHOPPINGLIST,
+        payload: shoppingList
+    })
+};
+
+export const removeFromShoppingList = (item) => async dispatch => {
+    const shoppingList = localStorage.getItem('List')
+                        ? JSON.parse(localStorage.getItem('List'))
+                        : [];
+    
+    dispatch({
+        type: ActionTypes.REMOVEFROMSHOPPINGLIST,
         payload: {
             shoppingList,
-            text,
+            item
         }
     })
 };

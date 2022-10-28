@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MyMarket from './MyMarket';
 import Blockbuster from './Blockbuster';
 import Card from './Card';
+import FlashSales from './FlashSales';
 
 class TopSection extends Component {
     state = {  } 
@@ -11,8 +12,9 @@ class TopSection extends Component {
                 <div className="container">
 
                     <MyMarket />
-                    <Card />
                     <Blockbuster />
+                    <Card />
+                    <FlashSales />
                 </div>
 
             </div>
