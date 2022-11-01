@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import {fetchProduct} from '../../../Redux/ActionCreator'
 import './Blockbuster.css';
 import { Loading } from '../../LoadingComponent';
 
@@ -9,15 +8,7 @@ const mapStateToProps = (state) => ({
     product: state.product
 })
 
-const mapDispatchToProps = (dispatch) => ({
-    fetchProduct: () => {dispatch(fetchProduct())}
-})
-
 class Blockbuster extends Component {
-
-    componentDidMount() {
-        this.props.fetchProduct();
-      }
 
     render () {
         const {product} = this.props
@@ -64,4 +55,4 @@ class Blockbuster extends Component {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Blockbuster);
+export default connect(mapStateToProps)(Blockbuster);

@@ -3,6 +3,7 @@ import MyMarket from './MyMarket';
 import Blockbuster from './Blockbuster';
 import Card from './Card';
 import FlashSales from './FlashSales';
+import PhoneAndTablet from '../../MyMarket/Phone&Tablet';
 
 class TopSection extends Component {
     state = {  } 

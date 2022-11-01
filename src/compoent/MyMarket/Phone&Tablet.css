@@ -1,0 +1,54 @@
+.market-content {
+    padding-top: 1rem;
+}
+
+.breadcrumb {
+    --bs-breadcrumb-divider: '>';
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #222;
+    font-size: 12px;
+}
+
+.bread-2 a {
+    color: #75757a;
+}
+
+
+.page-heading {
+    background-color: #fff;
+}
+
+.blockbuster-2 {
+    background-color: #fff;
+}
+
+.blockbuster-2 div.col-4 img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.blockbuster-2 div.col-lg-2 img, .blockbuster-2 div.col-2 img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.blockbuster-2 div.col-lg-2 p {
+    font-size: 14px;
+    margin-top: .5rem;
+}
+
+.sub-heading {
+    font-size: 20px;
+    /* margin-left: -22px; */
+}
+
+.bg-1 {
+    background-color: skyblue;
+}
+
+.bg-2 {
+    background-color: wheat;
+}

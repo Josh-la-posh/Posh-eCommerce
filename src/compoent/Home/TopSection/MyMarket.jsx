@@ -12,7 +12,7 @@ class MyMarket extends Component {
             <section className="my-market row">
                 <div className="left-content col-lg-2 col-3">
                     <ul>
-                        <li><FontAwesomeIcon className='left-content-icon' icon='mobile' /><a href="/home">Phones & Tablets</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='mobile' /><a href="/phone-tablet">Phones & Tablets</a></li><br />
                         <li><FontAwesomeIcon className='left-content-icon' icon='car-side' /><a href="/home">Electronics</a></li><br />
                         <li><FontAwesomeIcon className='left-content-icon' icon='shirt' /><a href="/home">Fashion</a></li><br />
                         <li><FontAwesomeIcon className='left-content-icon' icon='gamepad' /><a href="/home">Gaming</a></li><br />
