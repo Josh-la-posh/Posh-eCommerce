@@ -13,29 +13,29 @@ class MyMarket extends Component {
                 <div className="left-content col-lg-2 col-3">
                     <ul>
                         <li><FontAwesomeIcon className='left-content-icon' icon='mobile' /><a href="/phone-tablet">Phones & Tablets</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='car-side' /><a href="/home">Electronics</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='shirt' /><a href="/home">Fashion</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='gamepad' /><a href="/home">Gaming</a></li><br />
-                        <li><FontAwesomeIcon className='left-content-icon' icon='ellipsis' /><a href="/home">Other categories</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='car-side' /><a href="/electronics">Electronics</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='shirt' /><a href="/fashion">Fashion</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='gamepad' /><a href="/gaming">Gaming</a></li><br />
+                        <li><FontAwesomeIcon className='left-content-icon' icon='ellipsis' /><a href="/other">Other categories</a></li><br />
 
                     </ul>
                 </div>
                 <div className="main-content col-lg-10">  
                     <Carousel autoPlay interval="5000" transitionTime="1000" infiniteLoop>
                         <div>
-                            <img src="../../images/carousel_images/images.jpeg" alt="" className='img-fluid'/>
+                            <img src="../../images/carousel_images/carousel-1.png" alt="" className='img-fluid'/>
                         </div>
                         <div>
-                            <img src="../../images/carousel_images/images-1.jpeg" alt="" className='img-fluid'/>
+                            <img src="../../images/carousel_images/carousel-2.jpg" alt="" className='img-fluid'/>
                         </div>
                         <div>
-                            <img src="../../images/carousel_images/images-2.jpeg" alt="" className='img-fluid'/>
+                            <img src="../../images/carousel_images/carousel-3.jpg" alt="" className='img-fluid'/>
                         </div>
                         <div>
-                            <img src="../../images/carousel_images/images-3.jpeg" alt="" className='img-fluid'/>
+                            <img src="../../images/carousel_images/carousel-4.jpg" alt="" className='img-fluid'/>
                         </div>
                         <div>
-                            <img src="../../images/carousel_images/images-4.jpeg" alt="" className='img-fluid'/>
+                            <img src="../../images/carousel_images/carousel-5.jpg" alt="" className='img-fluid'/>
                         </div>
                     </Carousel>
                 </div>

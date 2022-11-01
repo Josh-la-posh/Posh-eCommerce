@@ -10,6 +10,7 @@ import { useParams } from "react-router-dom";
 import ShoppingCart from "./ShoppingCart/ShoppingCart";
 import ShoppingList from "./ShoppingList/ShoppingList";
 import PhoneAndTablet from "./MyMarket/Phone&Tablet";
+import Electronics from "./MyMarket/Electronics";
 
 function MainComponent() {
     const items = useSelector(state => state.reducer.items);
@@ -32,6 +33,7 @@ function MainComponent() {
                 <Route exact path='/cart' element={<ShoppingCart />} />
                 <Route path='/shopping-list' element={<ShoppingList />} />
                 <Route path='/phone-tablet' element={<PhoneAndTablet />} />
+                <Route path='/electronics' element={<Electronics />} />
             </Routes>
             <FooterHeader />
         </div>

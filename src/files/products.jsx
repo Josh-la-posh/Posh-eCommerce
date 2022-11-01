@@ -641,6 +641,185 @@ export const PRODUCTS = [
         brand: 'Samsung',
         sale_type: 'Blockbuster'
     },
+    {
+        id: 55,
+        name: 'Polystar',
+        description: '32 Inch LED TV + Frame',
+        price: '100800',
+        image: '../../images/product/electronics/polystar.jpg',
+        category: 'Electronics',
+        brand: 'Polystar',
+        sale_type: 'Limited Stock'
+    },
+    {
+        id: 56,
+        name: 'Sony 55',
+        description: '4K ltra HD Smart TV With Andriod OS',
+        price: '418605',
+        image: '../../images/product/electronics/sony55.jpg',
+        category: 'Electronics',
+        brand: 'Sony',
+        sale_type: 'Blockbuster'
+    },
+    {
+        id: 57,
+        name: 'TCL',
+        description: '40 HD TV With HDMI - 3, Dolby Surround Sound, USB - 2 & VGA Socket (40D3000)',
+        price: '132837',
+        image: '../../images/product/electronics/tcl40.jpg',
+        category: 'Electronics',
+        brand: 'Sony',
+        sale_type: 'Flash Deal'
+    },
+    {
+        id: 58,
+        name: 'Sony',
+        description: '50W660 BRAVIA 50" Digital Smart FHD TV With Android OS',
+        price: '318140',
+        image: '../../images/product/electronics/sony50.jpg',
+        category: 'Electronics',
+        brand: 'Sony',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 59,
+        name: 'TCL',
+        description: '32 HD TV With HDMI - 3, Dolby Surround Sound, USB - 2 & VGA Socket',
+        price: '75907',
+        image: '../../images/product/electronics/tcl32.jpg',
+        category: 'Electronics',
+        brand: 'Sony',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 60,
+        name: 'Samsung',
+        description: '32 HD TV With HDMI - 3, Dolby Surround Sound, USB - 2 & VGA Socket',
+        price: '625116',
+        image: '../../images/product/electronics/samsungQ65A.jpg',
+        category: 'Electronics',
+        brand: 'Samsung',
+        sale_type: 'Limited Stock'
+    },
+    {
+        id: 61,
+        name: 'Samsung',
+        description: 'HW-Q60T Soundbar with Acoustic Beam (2020)',
+        price: '245581',
+        image: '../../images/product/electronics/samsungHW.jpg',
+        category: 'Electronics',
+        brand: 'Samsung',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 62,
+        name: 'Nexus',
+        description: '32 Inch TV With Full HD, Overvoltage Protection + 2 Years Warranty',
+        price: '71265',
+        image: '../../images/product/electronics/nexus.jpg',
+        category: 'Electronics',
+        brand: 'Nexus',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 63,
+        name: 'Hisense',
+        description: 'Bluetooth Sound Bar System-204',
+        price: '25920',
+        image: '../../images/product/electronics/hisense.jpg',
+        category: 'Electronics',
+        brand: 'Hisense',
+        sale_type: 'Limited Stock'
+    },
+    {
+        id: 64,
+        name: 'Hisense',
+        description: 'Bluetooth Sound Bar System-204',
+        price: '25920',
+        image: '../../images/product/electronics/hisense.jpg',
+        category: 'Electronics',
+        brand: 'Hisense',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 65,
+        name: 'WEYON',
+        description: '32" Inches LED TV +1 Years Warranty - Black',
+        price: '59990',
+        image: '../../images/product/electronics/weyon.jpg',
+        category: 'Electronics',
+        brand: 'WEYON',
+    },
+    {
+        id: 66,
+        name: 'HAN RIVER',
+        description: 'Dry Iron/foldable Iron/Portable/travel/business Trip',
+        price: '6325',
+        image: '../../images/product/electronics/hanIron.jpg',
+        category: 'Electronics',
+        brand: 'HAN',
+        sale_type: 'Limited Stock'
+    },
+    {
+        id: 67,
+        name: 'Edifier',
+        description: 'M206BT 68Watts Channel Bluetooth Multimedia Speakers',
+        price: '29685',
+        image: '../../images/product/electronics/edifier.jpg',
+        category: 'Electronics',
+        brand: 'Edifier',
+        sale_type: 'Limited Stock'
+    },
+    {
+        id: 68,
+        name: 'Binatone',
+        description: 'Automatic Voltage Protector AVP-1300',
+        price: '7020',
+        image: '../../images/product/electronics/binatone.jpg',
+        category: 'Electronics',
+        brand: 'Binatone',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 69,
+        name: 'TCL',
+        description: '180 Liters Single Door Upright Freezer',
+        price: '234100',
+        image: '../../images/product/electronics/tcl180.jpg',
+        category: 'Electronics',
+        brand: 'TCL',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 70,
+        name: 'Maxi',
+        description: '32 INCH LED HD TV,2 HDMI, 2 USB ,2 AV, ONE YEAR WARRANTY',
+        price: '67000',
+        image: '../../images/product/electronics/maxi180.jpg',
+        category: 'Electronics',
+        brand: 'Maxi',
+        sale_type: 'Flash Sale'
+    },
+    {
+        id: 71,
+        name: 'Elepaq',
+        description: '4.5KVA Long Coil Manual Start Generator- SV5000',
+        price: '163200',
+        image: '../../images/product/electronics/elepaq.jpg',
+        category: 'Electronics',
+        brand: 'Elepaq',
+        sale_type: 'Top Deal'
+    },
+    {
+        id: 72,
+        name: '400W',
+        description: '2CH Mini HiFi Digital Audio Stereo Power Amplifier Bass Bluetooth',
+        price: '11590',
+        image: '../../images/product/electronics/400w.jpg',
+        category: 'Electronics',
+        brand: '400W',
+        sale_type: 'Limited Stock'
+    },
 
 
 
