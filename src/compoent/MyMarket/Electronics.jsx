@@ -68,13 +68,13 @@ class Electronics extends Component {
                     <div className="blockbuster-2 mb-4">
                         <div className="row p-2">
                             <div className="col-4">
-                                <img src="../../../images/product/phones&tablet/andriod.png" alt="" />
+                                <img src="../../../images/product/electronics/homeTheatres.png" alt="" />
                             </div>
                             <div className="col-4">
-                                <img src="../../../images/product/phones&tablet/iphone.png" alt="" />
+                                <img src="../../../images/product/electronics/smartTvs.png" alt="" />
                             </div>
                             <div className="col-4">
-                                <img src="../../../images/product/phones&tablet/topBrand.png" alt="" />
+                                <img src="../../../images/product/electronics/portablePower.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -86,22 +86,22 @@ class Electronics extends Component {
                         <p className='sub-heading text-center bg-1'>Official Stores</p>
                         <div className="row p-2">
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/apple.png" alt="" />
+                                <img src="../../../images/product/electronics/jbl.png" alt="" />
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/mi.png" alt="" />
+                                <img src="../../../images/product/electronics/sony.png" alt="" />
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/samsung.png" alt="" />
+                                <img src="../../../images/product/electronics/hisense.png" alt="" />
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/infinix.png" alt="" />
+                                <img src="../../../images/product/electronics/weyon.png" alt="" />
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/tecno.png" alt="" />
+                                <img src="../../../images/product/electronics/nexus.png" alt="" />
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/nokia.png" alt="" />
+                                <img src="../../../images/product/electronics/lg.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -132,55 +132,55 @@ class Electronics extends Component {
 
                     {/* PHONE & TABLET CATEGORY */}
                     <div className="blockbuster-2 mb-4 pb-2">
-                        <p className='sub-heading text-center bg-2 p-2'>Phones & Tablet Category</p>
+                        <p className='sub-heading text-center bg-2 p-2'>Electronics Category</p>
                         <div className="row p-2">
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/andriodPhones.jpg" alt="" />
-                                <p className='text-center'>Andriod Phones</p>
+                                <img src="../../../images/product/electronics/ledTv.png" alt="" />
+                                <p className='text-center'>Led TVs</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/applePhones.png" alt="" />
-                                <p className='text-center'>iPhones</p>
+                                <img src="../../../images/product/electronics/smartTv.png" alt="" />
+                                <p className='text-center'>Smart TVs</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/cellPhones.png" alt="" />
-                                <p className='text-center'>Cell Phones</p>
+                                <img src="../../../images/product/electronics/32Tv.png" alt="" />
+                                <p className='text-center'>32" TVs</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/andriodTablet.png" alt="" />
-                                <p className='text-center'>Andriod Tablets</p>
+                                <img src="../../../images/product/electronics/43Tv.png" alt="" />
+                                <p className='text-center'>43" TVs</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/iPad.png" alt="" />
-                                <p className='text-center'>iPads</p>
+                                <img src="../../../images/product/electronics/50Tv.png" alt="" />
+                                <p className='text-center'>50" TVs</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/renewed.png" alt="" />
-                                <p className='text-center'>Renewed</p>
+                                <img src="../../../images/product/electronics/55Tv.png" alt="" />
+                                <p className='text-center'>55" TVs</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/topBrandPhones.png" alt="" />
-                                <p className='text-center'>Top Brands</p>
+                                <img src="../../../images/product/electronics/inverter.png" alt="" />
+                                <p className='text-center'>Inverters</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/builtForSpeed.png" alt="" />
-                                <p className='text-center'>Built for Speed</p>
+                                <img src="../../../images/product/electronics/generator.png" alt="" />
+                                <p className='text-center'>Generators</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/largeStorage.png" alt="" />
-                                <p className='text-center'>Large Storage</p>
+                                <img src="../../../images/product/electronics/homeTheatre.png" alt="" />
+                                <p className='text-center'>Home Theatres</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/largeScreen.png" alt="" />
-                                <p className='text-center'>Large Screen</p>
+                                <img src="../../../images/product/electronics/soundbar.png" alt="" />
+                                <p className='text-center'>Soundbar</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/accessories.png" alt="" />
-                                <p className='text-center'>Accessories</p>
+                                <img src="../../../images/product/electronics/portableSpeaker.png" alt="" />
+                                <p className='text-center'>Portable Speakers</p>
                             </div>
                             <div className="col-lg-2 col-4">
-                                <img src="../../../images/product/phones&tablet/bestForPhotos.png" alt="" />
-                                <p className='text-center'>Best For Photos</p>
+                                <img src="../../../images/product/electronics/streamingAudio.png" alt="" />
+                                <p className='text-center'>Streaming Audios</p>
                             </div>
                         </div>
                     </div>

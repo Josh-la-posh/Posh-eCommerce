@@ -87,12 +87,12 @@
     }
 
     #header-nav .menu {
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .menu .icon {
-        font-size: 8px;
-        margin: 0 1px;
+        font-size: 6px;
+        margin: 0 2.5px;
     }
     
     .menu .icon-left {

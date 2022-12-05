@@ -46,6 +46,7 @@ section .main-content {
 .carousel .slide img {
     object-fit: cover !important;
     height: 23rem;
+    width: 100%;
 }
 
 .control-dots .dot {
@@ -84,18 +85,39 @@ section .right-content .bottom-box {
 }
 
 @media screen and (max-width: 576px) {
+    .my-market {
+        padding-right: .7rem;
+        height: 10rem;
+        overflow: hidden;
+    }
+
+    .left-content {
+        padding: 1rem 0;       
+    }
+
     section .left-content ul {
-        font-size: 9px;
-        margin-left: -2.7rem;
+        font-size: 8px;
+        margin-left: -1rem;
     }
     
     section .left-content ul li {
-        padding-right: 0rem;
+        margin: .1rem 0;
     }
     
     section .left-content .left-content-icon {
         font-size: 12px;
-        margin-right: .3rem;
+        margin-right: .4rem;
         width: .7rem;
+    }
+
+    section .main-content {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .carousel .slide img {
+        object-fit: fill !important;
+        height: 10rem;
+        width: 50%;
     }
 }

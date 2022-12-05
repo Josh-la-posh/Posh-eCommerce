@@ -11,7 +11,7 @@ function Nav({ onSearch }) {
                     <Logo />
                     <NavSearch onSearch={onSearch} />
                     <NavRight />
-                </div>                
+                </div>
             </Navbar>
     )
 }

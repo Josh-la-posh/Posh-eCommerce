@@ -47,7 +47,7 @@ class Blockbuster extends Component {
                                         <div key={item.id}>
                                             <Link to={`/product/${item.id}`} className="blockbuster-item">
                                                 <div className="img-container">
-                                                    <img src={item.image} alt="Logo" className='img-fluid'/>
+                                                    <img src={item.image} alt="Logo"/>
                                                 </div>
                                                 <p>{item.name} {item.model}</p>
                                             </Link>

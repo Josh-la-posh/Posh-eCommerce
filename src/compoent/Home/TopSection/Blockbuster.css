@@ -30,13 +30,13 @@
 }
 
 .blockbuster-item .img-container {
-    width: 8rem;
-    height: 10rem;
+    margin: 0 .5rem;
 }
 
 .blockbuster-item img {
     width: 7rem;
     height: 9rem;
+    margin-bottom: 1rem;
 
     position: relative;
 }
@@ -73,6 +73,9 @@
         width: 3.1rem;
         height: 3.8rem;
         margin-bottom: .2rem;
+    }
+    .blockbuster-item p {
+        font-size: 8px;
     }
     .blockbuster-item span {
         font-size: 7px;

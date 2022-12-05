@@ -5,11 +5,8 @@
 }
 
 .home-container {
-    /* background: #000; */
     padding-top: 1rem;
 }
-
-
 
 section {
     margin-bottom: 2rem;
@@ -37,8 +34,17 @@ section {
 }
 
 @media screen and (max-width: 576px) {
+    .home-container {
+        padding-top: .3rem;
+    }
+
     .top-section .container {
         margin-top: -3rem;
         width: 100%;
-    }    
+    }
+
+    section {
+        margin-bottom: .5rem;
+        padding: 1.5rem;
+    }
 }

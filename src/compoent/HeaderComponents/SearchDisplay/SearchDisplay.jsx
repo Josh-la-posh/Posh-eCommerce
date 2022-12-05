@@ -7,9 +7,7 @@ class SearchDisplay extends Component {
         const {FilterSearch, search} = this.props
         return (
             <div>
-                {search &&
-                <div>
-                    <div className="empty-search nav-search"></div>
+                {search && 
                     <div className="search-display">
                         <ul className='nav-search'>
                             {search && FilterSearch.map(item => {
@@ -18,9 +16,7 @@ class SearchDisplay extends Component {
                                 )
                             })}
                         </ul>
-                    </div>
-                    <div className="empty-search"></div>
-                </div>}
+                    </div>}
             </div>
         );
     }

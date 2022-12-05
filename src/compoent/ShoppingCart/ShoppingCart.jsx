@@ -35,7 +35,7 @@ class ShoppingCart extends Component {
                         <div className="cart-left">
                             <h3>Shopping Cart</h3>
                             <p className="text-right">Price</p>
-                                                
+
                             <hr />
 
                             {cart.map(item => {
