@@ -105,6 +105,10 @@
         font-size: 14px;
     }
 
+    .mid-display-content .no-card {
+        padding-top: 0;
+    }
+
     .mid-display-content .no-card button {
         padding: .3rem 1.2rem;
         font-size: 12px;

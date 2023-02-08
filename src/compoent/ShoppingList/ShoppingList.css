@@ -63,6 +63,10 @@
     display: block;
 }
 
+/* .list-content .list li:mouse .remove-list {
+    display: block;
+} */
+
 .list-content .empty-list {
     padding-top: 3rem;
     font-size: 16px;
