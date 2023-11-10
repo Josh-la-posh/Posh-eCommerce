@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { addToCart, removeFromCart, reduceCart } from '../../Redux/ActionCreator';
 import './ShoppingCart.css';
 import BottomSection from '../Home/BottomSection/BottomSection';
+import { Link } from 'react-router-dom';
 
 const mapStateToProps = (state) => ({
     cart: state.cart.cart,
@@ -34,7 +35,7 @@ class ShoppingCart extends Component {
                     <div className="shopping-cart__content">
                         <div className="cart-left">
                             <h3>Shopping Cart</h3>
-                            <p className="text-right">Price</p>
+                            {/* <p className="text-right">Price</p> */}
 
                             <hr />
 
@@ -45,7 +46,7 @@ class ShoppingCart extends Component {
                                             <div className="item-img"><img className='img-fluid' src={item.image} alt="Logo" /></div>
                                             <div className="item-details">
                                                 <div className="name">{item.name} {item.model} - {item.color}</div>
-                                                <h4>#{item.price}</h4>
+                                                <h4>₦{item.price}</h4>
                                                 <h6>POSH <span>EXPRESS</span></h6>
                                                 <p>Posh Express item in your order will be delivered for free (Lagos, Abuja and Anambra only excluding large items)</p>
                                             </div>
@@ -67,11 +68,15 @@ class ShoppingCart extends Component {
                                     </div>                        
                                 )
                             })}
-                            <div className="text-right">Subtotal ({totalItem} item): <p className='price'><strong>#{subTotal}</strong></p></div>
+                            <div className="text-right">Subtotal ({totalItem} item): <p className='price'><strong>₦{subTotal}</strong></p></div>
                             <div className="free-div"></div>
                         </div>
 
-                        <div className="cart-right"></div>
+                        <div className="cart-right">
+                            <div className="">Subtotal ({totalItem} item): <p className='price'><strong>₦{subTotal}</strong></p></div>
+                            <div className="gift-box"><input type="checkbox" /><span>This order contains a gift</span></div>
+                            <button><Link to='/'>Proceed to checkout</Link></button>
+                        </div>
                     </div>
                     <BottomSection />
                 </div>

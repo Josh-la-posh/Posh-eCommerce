@@ -1013,7 +1013,7 @@ export const PRODUCTS = [
     name: "Nivea",
     description: "Deodorant Roll On, Pearl & Beauty For Women 50ml",
     price: "799",
-    image: "../../images/product/rollon.jpg",
+    image: "../../images/product/nivea.jpg",
     category: "fashion",
     brand: "Nivea",
     sale_type: "Flash Sales",

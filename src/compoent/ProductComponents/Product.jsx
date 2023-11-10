@@ -4,6 +4,7 @@ import './Product.css';
 import { connect } from 'react-redux';
 import { reduceCart, addToCart, fetchProduct } from '../../Redux/ActionCreator';
 import BottomSection from '../Home/BottomSection/BottomSection';
+import { Link } from 'react-router-dom';
 
 const mapStateToProps = (state) => ({
     product: state.product,
@@ -36,6 +37,8 @@ class Product extends Component {
         return (
             <div className="product">
                 <div className="container">
+                    <div className="product-container">
+
                     <div className="product-content">
                         <div className="img-display">
                             <div className="img-display-content">
@@ -51,7 +54,7 @@ class Product extends Component {
 
                                 <hr />
                                 
-                                <h3>#{item.price}</h3>
+                                <h3>₦{item.price}</h3>
 
                                 {cartQuantity ?
                                 <div className="cart-button">
@@ -65,19 +68,19 @@ class Product extends Component {
 
                                 <div className="delivery">
                                     <div className="pay">
-                                        <div className="">Icon</div>
+                                        {/* <div className="">Icon</div> */}
                                         <p>Pay on Delivery</p>
                                     </div>
                                     <div className="pay">
-                                        <div className="">Icon</div>
+                                        {/* <div className="">Icon</div> */}
                                         <p>Free Delivery</p>
                                     </div>
                                     <div className="pay">
-                                        <div className="">Icon</div>
+                                        {/* <div className="">Icon</div> */}
                                         <p>7 Days Replacement</p>
                                     </div>
                                     <div className="pay">
-                                        <div className="">Icon</div>
+                                        {/* <div className="">Icon</div> */}
                                         <p>PoshStore Delivered</p>
                                     </div>
                                 </div>
@@ -93,6 +96,11 @@ class Product extends Component {
 
                             </div>
                         </div>
+                    </div>
+                    <div className="product-content-card">
+                        <button><Link to='/cart'>Go to cart</Link></button>
+                        <p>For the best experience, <span>sign in to your account</span></p>
+                    </div>
                     </div>
                 </div>
                 <BottomSection />

@@ -16,7 +16,7 @@ function Search({ onSearch }) {
         <div className="input">
           <input
             type="text"
-            placeholder="Search products, brands adn categories"
+            placeholder="Search products, brands and categories"
             onChange={onSearch}
           />
           <span className="icon">

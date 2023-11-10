@@ -6,7 +6,7 @@ function FooterHeader () {
         <div className="footer">
             <a href="#nav">
                 <div className="backToTop">
-                    Back to top
+                    {/* Back to top */}
                 </div>
             </a>
             <div className="footer-container">

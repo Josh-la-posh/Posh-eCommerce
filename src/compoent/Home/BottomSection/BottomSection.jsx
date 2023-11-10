@@ -24,8 +24,8 @@ class BottomSection extends Component {
                                         <div className='product-img img-fluid'><img src={product.image} alt='' /></div>
                                         <p className='desc'>{product.name} {product.model}</p>
                                         {product.sale_type === 'Blockbuster' && <small className='deal'>Deal of the day</small>}
-                                        <p className='amt'>#{product.price}</p>
-                                        <p className="text">FREE Delivery over #4,999</p>
+                                        <p className='amt'>₦{product.price}</p>
+                                        <p className="text">FREE Delivery over ₦4,999</p>
                                         <p className='text'>Fulfilled by PoshStore.</p>
                                     </Link>
                                 )

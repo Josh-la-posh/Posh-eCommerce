@@ -83,15 +83,15 @@ hr {
 
     .footer-top-content {
         margin-top: 3rem;
-        max-width: 950px;
-        width: 100%;
+        /* max-width: 950px;
+        width: 100%; */
         
     }
 
     .footer-content {
         margin-bottom: -1rem;
         justify-content: space-between;
-        max-width: 890px;
+        /* max-width: 890px; */
     }
     
     .footer-content h3 {
@@ -129,8 +129,8 @@ hr {
 
 @media screen and (max-width: 576px) {
     .footer {
-        max-width: 576px;
-        width: 100%;
+        /* max-width: 576px;
+        width: 100%; */
     }
 
     .backToTop {
